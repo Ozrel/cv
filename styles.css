@@ -1,0 +1,228 @@
+:root {
+  --cozy-white: #effaf6;
+  --cozy-blue: #1d6d86;
+  --cozy-black: #0c0c0d;
+  --cozy-gray: #a0a1a1;
+  --cozy-yellow: #fed361;
+  --cozy-orange: #6c3510;
+  --cozy-blue2: #4ebeef;
+  --cozy-green: #5dca36;
+  --cozy-orange2: #af8536;
+  --cozy-red: #ff4244;
+}
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+
+
+body {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-right: 40px;
+  background-color: var(--cozy-black);
+}
+.nav-container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 250px;
+} 
+  
+.navbar {
+  position:fixed;
+  background: var(--cozy-blue);
+  border-radius: 12px;
+  border-style:groove;
+  top: 15px;
+  padding: 0px;
+  overflow: hidden;
+  border-color: var(--cozy-blue2);
+}
+
+.nav-list {
+  margin: 0px;
+  position: relative;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: bold;
+  font-size: 25px;
+  align-content:space-between;
+  color: var(--cozy-white);
+  display: flex;
+}
+
+.inside-link {
+  text-decoration: none;
+  color: var(--cozy-white);
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 1px;
+}
+
+.inside-link:hover {
+  color: var(--cozy-yellow);
+  border-radius: 12px;
+}
+
+.inside-link:active {
+  color: var(--cozy-red);
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-blue2) 40%);
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.title {
+  animation: color-animation 4s linear infinite;
+}
+
+.firstword {
+  --color-1: #01a72b;
+  --color-2: #ff4244;
+  --color-3: #4ebeef;
+}
+
+.secondword {
+  --color-1: #ff4244;
+  --color-2: #4ebeef;;
+  --color-3: #01a72b;
+}
+
+.thirdword {
+  --color-1: #4ebeef;
+  --color-2: #01a72b;
+  --color-3: #ff4244;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+.mytitle {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 75px;
+  color: var(--cozy-blue);
+  text-transform: uppercase;
+  font-size: 55px;
+}
+
+.myjob{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 35px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-green) 40%);
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+
+.projects-section-header {
+  color: var(--cozy-white);
+  font-size: 50px;;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-red) 40%);
+  border-radius: 20px;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+}
