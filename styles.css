@@ -49,6 +49,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  white-space: normal;
+  font-stretch: normal;
 }
 
 /* A elements that don't have a class get default styles */
@@ -137,8 +139,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
   background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-blue2) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
@@ -183,7 +183,7 @@ body {
   font-size: 75px;
   color: var(--cozy-blue);
   text-transform: uppercase;
-  font-size: 55px;
+  white-space: wrap;
 }
 
 .myjob{
@@ -198,8 +198,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
   background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-green) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
@@ -207,7 +205,8 @@ body {
 
 .projects-section-header {
   color: var(--cozy-white);
-  font-size: 50px;;
+  font-size: 50px;
+  padding-bottom: 60px;
 }
 
 .contact-section {
@@ -215,14 +214,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100%;
   background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-red) 40%);
   border-radius: 20px;
 }
 
 img {
   width: 800px;
-  height: 600px;
+  height: auto;
   object-fit: cover;
+}
+
+.screen-size {
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: var(--cozy-orange);
+  }
 }
