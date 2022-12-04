@@ -198,7 +198,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-green) 40%);
+  background: linear-gradient(18deg, var(--cozy-yellow) 60%, var(--cozy-green) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
 }
@@ -206,9 +206,17 @@ body {
 .projects-section-header {
   color: var(--cozy-white);
   font-size: 3.0rem;
+  max-width: fit-content;
   margin-top: auto;
   margin-bottom: auto;
-  max-width: fit-content;
+  position: relative;
+  direction: inherit;
+  top: -60px;
+}
+
+.project-title {
+  position: relative;
+  direction: inherit;
 }
 
 .contact-section {
@@ -221,9 +229,14 @@ body {
 }
 
 img {
-  width: 800px;
+  width: 90%;
   height: auto;
-  object-fit: cover;
+  position: relative;
+  direction: inherit;
+  top: -80px;
+  margin-bottom: 15px;
+  margin: auto;
+  border-radius: 12px;
 }
 
 .screen-size {
