@@ -206,7 +206,8 @@ body {
 .projects-section-header {
   color: var(--cozy-white);
   font-size: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
+  max-width: fit-content;
 }
 
 .contact-section {
