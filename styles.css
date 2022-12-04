@@ -200,13 +200,12 @@ body {
   align-items: center;
   background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-green) 40%);
   border-radius: 20px;
-  margin-bottom: 35px;
 }
 
 .projects-section-header {
   color: var(--cozy-white);
-  font-size: 50px;
-  padding-bottom: 50px;
+  font-size: 3.0rem;
+  padding-bottom: 80px;
   max-width: fit-content;
 }
 
@@ -252,6 +251,6 @@ img {
     background-color: var(--cozy-orange2);
   }
   .nav-container {
-    max-width: 70%;
+    max-width: 900px;
   }
 }
