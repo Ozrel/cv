@@ -250,4 +250,7 @@ img {
   body {
     background-color: var(--cozy-orange2);
   }
+  .nav-container {
+    max-width: 70%;
+  }
 }
