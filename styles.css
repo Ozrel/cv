@@ -181,8 +181,7 @@ body {
   margin-right: auto;
   text-align: center;
   font-size: 75px;
-  color: var(--cozy-blue);
-  text-transform: uppercase;
+  color: var(--cozy-black);
   white-space: wrap;
 }
 
@@ -207,16 +206,6 @@ body {
   color: var(--cozy-white);
   font-size: 3.0rem;
   max-width: fit-content;
-  margin-top: auto;
-  margin-bottom: auto;
-  position: relative;
-  direction: inherit;
-  top: -60px;
-}
-
-.project-title {
-  position: relative;
-  direction: inherit;
 }
 
 .contact-section {
@@ -229,13 +218,8 @@ body {
 }
 
 img {
-  width: 90%;
+  width: 800px;
   height: auto;
-  position: relative;
-  direction: inherit;
-  top: -80px;
-  margin-bottom: 15px;
-  margin: auto;
   border-radius: 12px;
 }
 
@@ -264,5 +248,15 @@ img {
 @media only screen and (max-width: 600px) {
   body {
     background-color: var(--cozy-orange2);
+  }
+
+  .project-title {
+    margin-bottom: 40px;
+  }
+
+  img {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
