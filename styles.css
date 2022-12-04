@@ -208,6 +208,19 @@ body {
   max-width: fit-content;
 }
 
+.project {
+  text-decoration: none;
+}
+
+.project-title {
+  font-size: x-large;
+  font-weight: 700;
+  color: var(--cozy-white)
+}
+
+.project-title:hover {
+  color: var(--cozy-green);
+}
 .contact-section {
   display: flex;
   flex-direction: column;
