@@ -262,6 +262,7 @@ img {
 
   body {
     background-color: var(--cozy-yellow);
+    padding: 10px;
   }
 
   .project-title {
