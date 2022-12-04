@@ -107,8 +107,8 @@ body {
   position: relative;
   list-style: none;
   text-decoration: none;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 0px;
   font-weight: bold;
   font-size: 25px;
   align-content:space-between;
@@ -200,6 +200,7 @@ body {
   align-items: center;
   background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-green) 40%);
   border-radius: 20px;
+  margin-bottom: 35px;
 }
 
 .projects-section-header {
@@ -248,9 +249,6 @@ img {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: var(--cozy-orange2);
-  }
-  .nav-container {
-    max-width: 900px;
+    background-color: var(--cozy-black);
   }
 }
