@@ -197,7 +197,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(18deg, var(--cozy-yellow) 60%, var(--cozy-green) 40%);
+  background: linear-gradient(18deg, var(--cozy-blue) 60%, var(--cozy-green) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
 }
@@ -246,8 +246,9 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+
   body {
-    background-color: var(--cozy-orange2);
+    background-color: var(--cozy-yellow);
   }
 
   .project-title {
@@ -263,5 +264,16 @@ img {
   .contact-links {
     position: relative;
     display: block;
+  }
+
+  .contact-heading {
+    background-color: var(--cozy-red);
+    color: var(--cozy-white);
+    border-color: var(--cozy-white);
+    border-style: solid;
+    border-radius: 12px;
+    height: auto;
+    width: 100%;
+    padding: 5px;
   }
 }
