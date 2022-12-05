@@ -204,7 +204,7 @@ body {
 }
 
 .projects-section-header {
-  color: var(--cozy-red);
+  color: var(--cozy-blue);
   font-size: 3.0rem;
   max-width: fit-content;
   border: 4px;
@@ -295,7 +295,7 @@ img {
 img {
   --g: 4px;     /* the gap */
   --b: 4px;    /* border thickness*/
-  --c: var(--cozy-green); /* the color */
+  --c: var(--cozy-white); /* the color */
   
   
   padding: calc(var(--g) + var(--b));
