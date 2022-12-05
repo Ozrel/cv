@@ -93,13 +93,14 @@ body {
   
 .navbar {
   position:fixed;
-  background: var(--cozy-blue);
+  background: var(--cozy-red);
   border-radius: 12px;
   border-style:groove;
   top: 15px;
   padding: 0px;
   overflow: hidden;
-  border-color: var(--cozy-blue2);
+  border-color: var(--cozy-blue);
+  z-index: 1;
 }
 
 .nav-list {
@@ -131,7 +132,7 @@ body {
 }
 
 .inside-link:active {
-  color: var(--cozy-red);
+  color: var(--cozy-green);
 }
 
 .welcome-section {
@@ -139,7 +140,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-blue2) 40%);
+  background: linear-gradient(18deg, var(--cozy-white) 60%, var(--cozy-red) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
 }
@@ -197,23 +198,23 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(18deg, var(--cozy-blue) 60%, var(--cozy-green) 40%);
+  background: linear-gradient(18deg, var(--cozy-blue) 60%, var(--cozy-red) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
 }
 
 .projects-section-header {
-  color: var(--cozy-white);
+  color: var(--cozy-red);
   font-size: 3.0rem;
   max-width: fit-content;
   border: 4px;
   border-style: solid;
-  border-color: var(--cozy-white);
+  border-color: var(--cozy-red);
   border-radius: 12px;
   padding-left: 25px;
   padding-right: 25px;
   margin-top: 20px;
-  background-color: var(--cozy-green);
+  background-color: var(--cozy-white);
 }
 
 .project {
@@ -294,7 +295,7 @@ img {
 img {
   --g: 4px;     /* the gap */
   --b: 4px;    /* border thickness*/
-  --c: var(--cozy-white); /* the color */
+  --c: var(--cozy-green); /* the color */
   
   
   padding: calc(var(--g) + var(--b));
