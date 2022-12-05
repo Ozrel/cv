@@ -206,6 +206,13 @@ body {
   color: var(--cozy-white);
   font-size: 3.0rem;
   max-width: fit-content;
+  border-style: solid;
+  border-color: var(--cozy-white);
+  border-radius: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+  background-color: var(--cozy-green);
 }
 
 .project {
