@@ -96,5 +96,8 @@ header a:active {
     margin-left: 180px;
     margin-right: 0px;
   }
-
+  
+  h1 {
+    font-weight: 200;
+  }
 }
