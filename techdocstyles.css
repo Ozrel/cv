@@ -7,8 +7,14 @@ body {
 }
 h1 {
   color: white;
+  margin-left: 0;
+  margin-right: 0;
+  border: 0;
   margin-bottom: 46px;
   text-align: center;
+  position: relative;
+  display: block;
+  font-size: x-large;
 }
 
 h1:hover {
