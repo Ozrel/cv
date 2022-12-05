@@ -3,6 +3,7 @@ html {
 }
 body {
   background-color: lightblue;
+  position: absolute;
 }
 h1 {
   color: white;
@@ -66,18 +67,28 @@ header a:active {
 
 #main-doc {
   position: relative;
-  display: block;
-  margin-left: 318px;
+  margin-left: 310px;
   background-color: rgb(247, 236, 215);
   padding: 12px;
   border-radius: 12px;
-  margin-right: 18px;
+  margin-right: 1px;
   padding-bottom: 2px;
   top: 1px;
 }
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: white;
+    background-color: yellow;
   }
+
+  #navbar {
+    max-width: 150px;
+    min-height: 96vh;
+  }
+
+  #main-doc {
+    margin-left: 180px;
+    margin-right: 0px;
+  }
+
 }
