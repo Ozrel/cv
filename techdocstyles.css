@@ -10,6 +10,10 @@ h1 {
   text-align: center;
 }
 
+h1:hover {
+  color: orange;
+}
+
 header {
   font-weight: bold;
   font-size: 20px;
@@ -33,11 +37,12 @@ header a:active {
 #navbar {
   position: fixed;
   background-color: black;
-  min-width: 250px;
-  min-height: 100%;
+  max-width: 280px;
+  min-height: 96vh;
   z-index: 1;
   padding: 12px;
-  top: 0px;
+  top: 8px;
+  border-radius: 8px;
 }
 
 .nav-link {
@@ -46,15 +51,21 @@ header a:active {
   text-decoration: none;
   border: solid;
   border-color: white;
-  background-color: gray;
-  margin: 12px;
+  background-color: black;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 12px;
   border-radius: 12px;
   text-align: center;
   font-weight: 200;
 }
 
+.nav-link:hover {
+  border-color: orange;
+}
+
 #main-doc {
-  position: absolute;
+  position: relative;
   display: block;
   margin-left: 318px;
   background-color: rgb(247, 236, 215);
