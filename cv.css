@@ -19,10 +19,9 @@ body {
 }
 
 hr {
-  background-color: var(--cozy-blue); /*partner with body bg*/
   border-style: dotted none none;
   border-width: 5px;
-  color: var(--cozy-blue2);
+  border-color: var(--cozy-blue2);
   height: 15px;
   width: 20%;
 
@@ -45,6 +44,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 h1 {
