@@ -95,11 +95,11 @@ body {
   position:fixed;
   background: var(--cozy-red);
   border-radius: 12px;
-  border-style:groove;
+  border-style: outset;
   top: 15px;
   padding: 0px;
   overflow: hidden;
-  border-color: var(--cozy-white);
+  border-color: var(--cozy-yellow);
   z-index: 1;
 }
 
@@ -113,11 +113,11 @@ body {
   font-weight: bold;
   font-size: 25px;
   align-content:space-between;
-  color: var(--cozy-white);
   display: flex;
 }
 
 .inside-link {
+  font-family: Garamond, serif;
   text-decoration: none;
   color: var(--cozy-white);
   padding-top: 1px;
@@ -178,6 +178,7 @@ body {
 }
 
 .mytitle {
+  font-family: 'Courier New', monospace;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -187,10 +188,12 @@ body {
 }
 
 .myjob{
+  font-family: Garamond, serif;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   font-size: 35px;
+  font-weight: 600;
 }
 
 .projects-section {
@@ -198,12 +201,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(18deg, var(--cozy-blue) 60%, var(--cozy-red) 40%);
+  background: linear-gradient(18deg, var(--cozy-blue2) 60%, var(--cozy-red) 40%);
   border-radius: 20px;
   margin-bottom: 35px;
 }
 
 .projects-section-header {
+  font-family: Garamond, serif;
   color: var(--cozy-white);
   font-size: 3.0rem;
   max-width: fit-content;
@@ -250,6 +254,9 @@ img {
   min-width: 100%;
 }
 
+h2 {
+  font-family: 'Courier New', monospace;
+}
 .contact-section a {
   text-decoration: none;
   font-weight: 700;
@@ -295,7 +302,7 @@ img {
 img {
   --g: 4px;     /* the gap */
   --b: 4px;    /* border thickness*/
-  --c: var(--cozy-white); /* the color */
+  --c: var(--cozy-black); /* the color */
   
   
   padding: calc(var(--g) + var(--b));
@@ -318,7 +325,7 @@ img:hover {
 @media only screen and (max-width: 600px) {
 
   body {
-    background-color: var(--cozy-yellow);
+    background-color: var(--cozy-blue);
     padding: 10px;
   }
 
@@ -349,5 +356,9 @@ img:hover {
     height: auto;
     width: 100%;
     padding: 5px;
+  }
+
+  h2 {
+    font-family: Garamond, serif;
   }
 }
