@@ -15,6 +15,7 @@ body {
   background-color: var(--cozy-blue); /*partner with hr bg*/
   color: var(--cozy-white);
   text-align: center;
+  padding-bottom: 20px;
 }
 
 hr {
@@ -59,4 +60,20 @@ h2, h3 {
 
 .year {
   padding-left: 60px;
+}
+
+.contact {
+  color: var(--cozy-white);
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.contact:hover {
+  color: var(--cozy-red);
+  font-size: large;
+}
+
+.contact:active {
+  color: var(--cozy-green);
 }
