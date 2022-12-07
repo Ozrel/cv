@@ -9,7 +9,7 @@
   --cozy-green: #144b00;
   --cozy-orange2: #af8536;
   --cozy-red: #ff4244;
-  --cozy-bean: #99362a;
+  --cozy-table: #7a533b;
   --cozy-coffee: #130d07;
   --cozy-mat: #cfd1c3;
   --cozy-hotcoffee: #130d07;
@@ -29,13 +29,15 @@ body {
 }
 
 .container{
-  background-color: var(--cozy-bean);
+  background-color: var(--cozy-table);
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
-  inline-size: 460px; /*fix size for the container*/
+  inline-size: 560px; /*fix size for the container*/
   padding-bottom: 12px;
   opacity: 90%;
+  position: relative;
+  right: 2%;
 }
 
 hr {
