@@ -11,16 +11,14 @@
   --cozy-red: #ff4244;
   --cozy-table: #944f21;
   --cozy-coffee: #130d07;
-  --cozy-mat: #cfd1c3;
-  --cozy-hotcoffee: #130d07;
-  --cozy-bubble: #a18a47;
 }
 
 html{
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
 body {
-  background-color: var(--cozy-blue);
+  background-color: var(--cozy-black);
   color: var(--cozy-white);
   text-align: center;
   padding-bottom: 2px;
@@ -39,10 +37,18 @@ body {
   right: 2%;
 }
 
+h1 {
+  color: var(--cozy-coffee);
+  font-size: x-large;
+}
+h2, h3 {
+  color: var(--cozy-coffee);
+}
+
 hr {
   border-style: dotted none none;
   border-width: 5px;
-  border-color: var(--cozy-hotcoffee);
+  border-color: var(--cozy-blue);
   height: 15px;
   width: 20%;
 
@@ -77,37 +83,33 @@ ol {
   padding-right: 0px;
 }
 
-h1 {
-  color: var(--cozy-coffee);
-  font-size: x-large;
-}
-h2, h3 {
-  color: var(--cozy-bubble);
-}
-
 .nospace {
   margin-bottom: 0px;
 }
 
+.experience {
+  color: var(--cozy-yellow)
+}
 .work {
   padding-left: 60px;
 }
 
 .year {
-  padding-left: 10px;
+  padding-left: 20px;
   white-space: nowrap; /*not break the words*/
   overflow: hidden; /*not break the words*/
 }
 
 .contact {
-  color: var(--cozy-mat);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--cozy-coffee);
   text-decoration: none;
-  font-weight: 700;
   margin-right: 12px;
 }
 
 .contact:hover {
-  color: var(--cozy-black);
+  color: var(--cozy-yellow);
 }
 
 .contact:active {
