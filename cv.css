@@ -1,14 +1,19 @@
 :root {
-  --cozy-white: #effaf6;
+  --cozy-white: #f0f3f4;
   --cozy-blue: #1d6d86;
   --cozy-black: #0c0c0d;
   --cozy-gray: #a0a1a1;
   --cozy-yellow: #fed361;
   --cozy-orange: #6c3510;
   --cozy-blue2: #4ebeef;
-  --cozy-green: #5dca36;
+  --cozy-green: #144b00;
   --cozy-orange2: #af8536;
   --cozy-red: #ff4244;
+  --cozy-bean: #99362a;
+  --cozy-coffee: #130d07;
+  --cozy-mat: #cfd1c3;
+  --cozy-hotcoffee: #130d07;
+  --cozy-bubble: #a18a47;
 }
 
 html{
@@ -18,22 +23,25 @@ body {
   background-color: var(--cozy-blue);
   color: var(--cozy-white);
   text-align: center;
+  padding-bottom: 2px;
+  min-height: 100vh;
+  min-width: 100%;
 }
 
 .container{
-  background-color: var(--cozy-black);
+  background-color: var(--cozy-bean);
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
   inline-size: 460px; /*fix size for the container*/
-  padding-bottom: 5px;
+  padding-bottom: 12px;
   opacity: 90%;
 }
 
 hr {
   border-style: dotted none none;
   border-width: 5px;
-  border-color: var(--cozy-blue2);
+  border-color: var(--cozy-hotcoffee);
   height: 15px;
   width: 20%;
 
@@ -41,7 +49,7 @@ hr {
 
 img {
   height: 140px;
-  border-radius: 12px;
+  border-radius: 50%;
 }
 
 table {
@@ -69,11 +77,15 @@ ol {
 }
 
 h1 {
-  color: var(--cozy-green);
+  color: var(--cozy-coffee);
   font-size: x-large;
 }
 h2, h3 {
-  color: var(--cozy-yellow);
+  color: var(--cozy-bubble);
+}
+
+.nospace {
+  margin-bottom: 0px;
 }
 
 .work {
@@ -87,14 +99,14 @@ h2, h3 {
 }
 
 .contact {
-  color: var(--cozy-green);
+  color: var(--cozy-mat);
   text-decoration: none;
   font-weight: 700;
   margin-right: 12px;
 }
 
 .contact:hover {
-  color: var(--cozy-red);
+  color: var(--cozy-black);
 }
 
 .contact:active {
