@@ -9,7 +9,7 @@
   --cozy-green: #144b00;
   --cozy-orange2: #af8536;
   --cozy-red: #ff4244;
-  --cozy-table: #7a533b;
+  --cozy-table: #944f21;
   --cozy-coffee: #130d07;
   --cozy-mat: #cfd1c3;
   --cozy-hotcoffee: #130d07;
@@ -35,7 +35,6 @@ body {
   border-radius: 15px;
   inline-size: 560px; /*fix size for the container*/
   padding-bottom: 12px;
-  opacity: 90%;
   position: relative;
   right: 2%;
 }
